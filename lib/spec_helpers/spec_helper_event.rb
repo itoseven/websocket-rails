@@ -22,7 +22,7 @@ module WebsocketRails
     end
 
     def connection
-      OpenStruct.new(:id => 1)
+      OpenStruct.new(:id => 1, :data_store => {})
     end
 
   end
